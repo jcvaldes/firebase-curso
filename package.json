@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve -o",
     "init-db": "ts-node -P ./init-db.tsconfig.json ./init-db.ts",
     "build": "ng build",
     "test": "ng test",
